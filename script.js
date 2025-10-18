@@ -1,6 +1,6 @@
 // === CONFIG SUPABASE ===
-const supabaseUrl = "TON_PROJECT_URL";
-const supabaseKey = "TA_ANON_KEY";
+const supabaseUrl = "https://zumkzkcatqhfkbcxqszq.supabase.co";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp1bWt6a2NhdHFoZmtiY3hxc3pxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA3MTYxMzYsImV4cCI6MjA3NjI5MjEzNn0.t2bBs36aqMbSuIuVFQaq_uLl5YVK-k05rKuBIBYp4vU";
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // === Exemple : récupérer les posts ===
